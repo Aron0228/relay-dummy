@@ -1,14 +1,14 @@
 import { useState } from 'react'
 
 export default function App() {
-  const [hasError, setHasError] = useState(false)
+  const [hasSuccess, setHasSuccess] = useState(false)
 
   return (
     <main>
-      <button type="button" onClick={() => setHasError(true)}>
-        Hiba megjelenítése
+      <button type="button" onClick={() => setHasSuccess(true)}>
+        Sikeres üzenet megjelenítése
       </button>
-      {hasError && <p role="alert">Error!</p>}
+      {hasSuccess && <p role="status">Success!</p>}
     </main>
   )
 }

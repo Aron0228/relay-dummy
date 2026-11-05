@@ -1,6 +1,6 @@
 # Relay Dummy
 
-Minimális React + TypeScript + Vite alkalmazás, CSS nélkül. A főoldal gombjára kattintva megjelenik az **Error!** üzenet. Ez egy szándékos felületi hibajelzés, nem futásidejű kivétel.
+Minimális React + TypeScript + Vite alkalmazás, CSS nélkül. A főoldal gombjára kattintva megjelenik a **Success!** üzenet.
 
 ## Fejlesztés
 
